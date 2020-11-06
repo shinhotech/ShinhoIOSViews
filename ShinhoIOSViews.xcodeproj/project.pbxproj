@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE12BC9325523C6100789C6E /* PhotoPreviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE12BC9125523C6100789C6E /* PhotoPreviewController.swift */; };
+		EE12BC9425523C6100789C6E /* PhotoTransitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE12BC9225523C6100789C6E /* PhotoTransitionViewController.swift */; };
+		EE12BC9725523C9A00789C6E /* String+AXExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE12BC9625523C9A00789C6E /* String+AXExtension.swift */; };
+		EE12BC9A25523D0100789C6E /* Shortcut.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE12BC9925523D0100789C6E /* Shortcut.swift */; };
 		EE6F9D1B255016C500648CA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6F9D1A255016C500648CA5 /* AppDelegate.swift */; };
 		EE6F9D1F255016C500648CA5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6F9D1E255016C500648CA5 /* ViewController.swift */; };
 		EE6F9D22255016C500648CA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE6F9D20255016C500648CA5 /* Main.storyboard */; };
@@ -70,6 +74,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		EE12BC9125523C6100789C6E /* PhotoPreviewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoPreviewController.swift; sourceTree = "<group>"; };
+		EE12BC9225523C6100789C6E /* PhotoTransitionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoTransitionViewController.swift; sourceTree = "<group>"; };
+		EE12BC9625523C9A00789C6E /* String+AXExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+AXExtension.swift"; sourceTree = "<group>"; };
+		EE12BC9925523D0100789C6E /* Shortcut.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shortcut.swift; sourceTree = "<group>"; };
 		EE6F9D17255016C500648CA5 /* ShinhoIOSViews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShinhoIOSViews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE6F9D1A255016C500648CA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EE6F9D1E255016C500648CA5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -167,6 +175,8 @@
 		EE6F9D372550ED8C00648CA5 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				EE12BC9125523C6100789C6E /* PhotoPreviewController.swift */,
+				EE12BC9225523C6100789C6E /* PhotoTransitionViewController.swift */,
 				EE6F9D392550EDE300648CA5 /* AXTitleContentView.swift */,
 				EE6F9DCC2550FE6B00648CA5 /* AXSelectorView.swift */,
 				EE6F9D382550EDE300648CA5 /* SelectorView.swift */,
@@ -179,6 +189,7 @@
 			children = (
 				EE6F9D4A2550EF8900648CA5 /* UIView+AXExtension.swift */,
 				EE6F9E2D2551021400648CA5 /* UILabel+AXExtension.swift */,
+				EE12BC9625523C9A00789C6E /* String+AXExtension.swift */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -193,6 +204,7 @@
 		EE6F9DD72551000100648CA5 /* Configure */ = {
 			isa = PBXGroup;
 			children = (
+				EE12BC9925523D0100789C6E /* Shortcut.swift */,
 				EE6F9DDB2551002400648CA5 /* Color.swift */,
 				EE6F9DDC2551002400648CA5 /* Constant.swift */,
 				EE6F9DDA2551002400648CA5 /* Font.swift */,
@@ -354,6 +366,7 @@
 				EE6F9D5A2550FB9900648CA5 /* AXTitleContentView.swift in Sources */,
 				EE6F9D1F255016C500648CA5 /* ViewController.swift in Sources */,
 				EE6F9DE12551002400648CA5 /* Color.swift in Sources */,
+				EE12BC9725523C9A00789C6E /* String+AXExtension.swift in Sources */,
 				EE6F9D1B255016C500648CA5 /* AppDelegate.swift in Sources */,
 				EE6F9D582550FB9600648CA5 /* UIView+AXExtension.swift in Sources */,
 				EE6F9E2E2551021400648CA5 /* UILabel+AXExtension.swift in Sources */,
@@ -361,7 +374,10 @@
 				EE6F9DDF2551002400648CA5 /* Shadow.swift in Sources */,
 				EE6F9DE22551002400648CA5 /* Constant.swift in Sources */,
 				EE6F9DCD2550FE6B00648CA5 /* AXSelectorView.swift in Sources */,
+				EE12BC9425523C6100789C6E /* PhotoTransitionViewController.swift in Sources */,
 				EE6F9D5C2550FB9C00648CA5 /* SelectorView.swift in Sources */,
+				EE12BC9325523C6100789C6E /* PhotoPreviewController.swift in Sources */,
+				EE12BC9A25523D0100789C6E /* Shortcut.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -106,7 +106,7 @@ class AXTitleContentView: UIView {
             lineView.isHidden = !showBottomLine
         }
     }
-    /// 下班部分的 padding
+    /// 下半部分的 padding
     var bottomOffset = margin3 {
         didSet {
             bottomConstraint?.update(offset: bottomOffset)

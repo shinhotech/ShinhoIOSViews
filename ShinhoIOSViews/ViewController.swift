@@ -24,7 +24,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        
+        view.backgroundColor = .white
         let contentView = UIView()
         view.addSubview(contentView)
         contentView.addSubview(selectorView)
@@ -37,6 +37,17 @@ class ViewController: UIViewController {
         
         selectorView.snp.makeConstraints { (make) in
             make.top.left.right.equalTo(0)
+        }
+        
+        let imageView = UIImageView()
+        imageView.image = UIImage(named: "icon")
+        contentView.addSubview(imageView)
+        imageView.isAutoShowPreviews = true
+        
+        imageView.snp.makeConstraints { (make) in
+            make.top.equalTo(selectorView.snp.bottom)
+            make.width.height.equalTo(100)
+            make.centerX.equalTo(contentView)
         }
     }
 

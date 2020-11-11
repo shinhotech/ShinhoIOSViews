@@ -36,3 +36,31 @@ photoPreviewCount: 图片 count
 photoPreviewResource: 图片资源
 photoPreviewTransitionFrame: 返回图片的 frame
 ```
+*AXStarBar
+```
+selectedStarCount: 选中 star 个数
+selectAction: 选中事件
+```
+*AXStarBarExtension
+```
+infos: starBar right information, 个数必须大于等于5, 大于5取前五个
+titleText: 标题
+isRequired: 必填项
+infoIsHidden: info 是否隐藏
+countSubject: count 改变订阅事件
+count: 选中个数
+```
+*ProgressView
+```
+// ProgressViewStyle
+arc: 环形进度条
+line: 线性进度条
+style: 默认线性进度
+animationStopped: 动画结束事件
+repeatCount: 动画重复次数
+autoreverses: 是否反向的
+progressWidth: 进度条宽度
+progressColors: 进度条颜色
+placeholderColor: 预览的颜色
+showPlaceholder: 是否显示预览
+```

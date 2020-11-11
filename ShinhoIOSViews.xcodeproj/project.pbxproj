@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -47,6 +47,12 @@
 		EE6F9E27255101DB00648CA5 /* AXKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE6F9E002551015B00648CA5 /* AXKit.framework */; };
 		EE6F9E28255101DB00648CA5 /* AXKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EE6F9E002551015B00648CA5 /* AXKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		EE6F9E2E2551021400648CA5 /* UILabel+AXExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6F9E2D2551021400648CA5 /* UILabel+AXExtension.swift */; };
+		EEB4B9B3255A287B00C99D02 /* AXStarBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB4B9B1255A287B00C99D02 /* AXStarBar.swift */; };
+		EEB4B9B4255A287B00C99D02 /* AXStarBarExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB4B9B2255A287B00C99D02 /* AXStarBarExtension.swift */; };
+		EEB4B9C5255A2F2400C99D02 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB4B9C4255A2F2400C99D02 /* R.generated.swift */; };
+		EEB4B9CD255A2FAF00C99D02 /* Rswift in Frameworks */ = {isa = PBXBuildFile; productRef = EEB4B9CC255A2FAF00C99D02 /* Rswift */; };
+		EEB4B9D0255A312400C99D02 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB4B9CF255A312400C99D02 /* ProgressView.swift */; };
+		EEB4B9D3255A32A300C99D02 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = EEB4B9D2255A32A300C99D02 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -108,6 +114,11 @@
 		EE6F9E162551017700648CA5 /* UIView+Ax.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Ax.swift"; sourceTree = "<group>"; };
 		EE6F9E172551017700648CA5 /* UIView+HitTestInsets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+HitTestInsets.swift"; sourceTree = "<group>"; };
 		EE6F9E2D2551021400648CA5 /* UILabel+AXExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+AXExtension.swift"; sourceTree = "<group>"; };
+		EEB4B9B1255A287B00C99D02 /* AXStarBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AXStarBar.swift; sourceTree = "<group>"; };
+		EEB4B9B2255A287B00C99D02 /* AXStarBarExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AXStarBarExtension.swift; sourceTree = "<group>"; };
+		EEB4B9C4255A2F2400C99D02 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
+		EEB4B9CF255A312400C99D02 /* ProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
+		EEB4B9D2255A32A300C99D02 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +131,7 @@
 				EE6F9E27255101DB00648CA5 /* AXKit.framework in Frameworks */,
 				EE6F9D3F2550EF0F00648CA5 /* RxSwift in Frameworks */,
 				EE6F9D472550EF0F00648CA5 /* RxBlocking in Frameworks */,
+				EEB4B9CD255A2FAF00C99D02 /* Rswift in Frameworks */,
 				EE6F9D4F2550EFD200648CA5 /* SnapKit in Frameworks */,
 				EE6F9D452550EF0F00648CA5 /* RxCocoa in Frameworks */,
 				EE6F9D432550EF0F00648CA5 /* RxRelay in Frameworks */,
@@ -140,6 +152,7 @@
 		EE6F9D0E255016C500648CA5 = {
 			isa = PBXGroup;
 			children = (
+				EEB4B9D2255A32A300C99D02 /* README.md */,
 				EE6F9D19255016C500648CA5 /* ShinhoIOSViews */,
 				EE6F9E012551015B00648CA5 /* AXKit */,
 				EE6F9D18255016C500648CA5 /* Products */,
@@ -180,6 +193,9 @@
 				EE6F9D392550EDE300648CA5 /* AXTitleContentView.swift */,
 				EE6F9DCC2550FE6B00648CA5 /* AXSelectorView.swift */,
 				EE6F9D382550EDE300648CA5 /* SelectorView.swift */,
+				EEB4B9B1255A287B00C99D02 /* AXStarBar.swift */,
+				EEB4B9B2255A287B00C99D02 /* AXStarBarExtension.swift */,
+				EEB4B9CF255A312400C99D02 /* ProgressView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -204,6 +220,7 @@
 		EE6F9DD72551000100648CA5 /* Configure */ = {
 			isa = PBXGroup;
 			children = (
+				EEB4B9C4255A2F2400C99D02 /* R.generated.swift */,
 				EE12BC9925523D0100789C6E /* Shortcut.swift */,
 				EE6F9DDB2551002400648CA5 /* Color.swift */,
 				EE6F9DDC2551002400648CA5 /* Constant.swift */,
@@ -251,6 +268,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EE6F9D2B255016C700648CA5 /* Build configuration list for PBXNativeTarget "ShinhoIOSViews" */;
 			buildPhases = (
+				EEB4B9BB255A2C7D00C99D02 /* R.swift */,
 				EE6F9D13255016C500648CA5 /* Sources */,
 				EE6F9D14255016C500648CA5 /* Frameworks */,
 				EE6F9D15255016C500648CA5 /* Resources */,
@@ -271,6 +289,7 @@
 				EE6F9D4E2550EFD200648CA5 /* SnapKit */,
 				EE6F9DD02550FF1D00648CA5 /* SwifterSwift */,
 				EE6F9DD42550FF6600648CA5 /* Closures */,
+				EEB4B9CC255A2FAF00C99D02 /* Rswift */,
 			);
 			productName = ShinhoIOSViews;
 			productReference = EE6F9D17255016C500648CA5 /* ShinhoIOSViews.app */;
@@ -327,6 +346,7 @@
 				EE6F9D4D2550EFD200648CA5 /* XCRemoteSwiftPackageReference "SnapKit" */,
 				EE6F9DCF2550FF1D00648CA5 /* XCRemoteSwiftPackageReference "SwifterSwift" */,
 				EE6F9DD32550FF6600648CA5 /* XCRemoteSwiftPackageReference "Closures" */,
+				EEB4B9C8255A2F8900C99D02 /* XCRemoteSwiftPackageReference "R.swift.Library" */,
 			);
 			productRefGroup = EE6F9D18255016C500648CA5 /* Products */;
 			projectDirPath = "";
@@ -345,6 +365,7 @@
 			files = (
 				EE6F9D27255016C700648CA5 /* LaunchScreen.storyboard in Resources */,
 				EE6F9D24255016C700648CA5 /* Assets.xcassets in Resources */,
+				EEB4B9D3255A32A300C99D02 /* README.md in Resources */,
 				EE6F9D22255016C500648CA5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -358,6 +379,30 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		EEB4B9BB255A2C7D00C99D02 /* R.swift */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$TEMP_DIR/rswift-lastrun",
+			);
+			name = R.swift;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				$SRCROOT/ShinhoIOSViews/Configure/R.generated.swift,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nrswift generate \"$SRCROOT/ShinhoIOSViews/Configure/R.generated.swift\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EE6F9D13255016C500648CA5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -365,6 +410,7 @@
 			files = (
 				EE6F9D5A2550FB9900648CA5 /* AXTitleContentView.swift in Sources */,
 				EE6F9D1F255016C500648CA5 /* ViewController.swift in Sources */,
+				EEB4B9B3255A287B00C99D02 /* AXStarBar.swift in Sources */,
 				EE6F9DE12551002400648CA5 /* Color.swift in Sources */,
 				EE12BC9725523C9A00789C6E /* String+AXExtension.swift in Sources */,
 				EE6F9D1B255016C500648CA5 /* AppDelegate.swift in Sources */,
@@ -372,10 +418,13 @@
 				EE6F9E2E2551021400648CA5 /* UILabel+AXExtension.swift in Sources */,
 				EE6F9DE02551002400648CA5 /* Font.swift in Sources */,
 				EE6F9DDF2551002400648CA5 /* Shadow.swift in Sources */,
+				EEB4B9B4255A287B00C99D02 /* AXStarBarExtension.swift in Sources */,
+				EEB4B9C5255A2F2400C99D02 /* R.generated.swift in Sources */,
 				EE6F9DE22551002400648CA5 /* Constant.swift in Sources */,
 				EE6F9DCD2550FE6B00648CA5 /* AXSelectorView.swift in Sources */,
 				EE12BC9425523C6100789C6E /* PhotoTransitionViewController.swift in Sources */,
 				EE6F9D5C2550FB9C00648CA5 /* SelectorView.swift in Sources */,
+				EEB4B9D0255A312400C99D02 /* ProgressView.swift in Sources */,
 				EE12BC9325523C6100789C6E /* PhotoPreviewController.swift in Sources */,
 				EE12BC9A25523D0100789C6E /* Shortcut.swift in Sources */,
 			);
@@ -715,6 +764,14 @@
 				minimumVersion = 0.7.0;
 			};
 		};
+		EEB4B9C8255A2F8900C99D02 /* XCRemoteSwiftPackageReference "R.swift.Library" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mac-cain13/R.swift.Library.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.3.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -757,6 +814,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = EE6F9DD32550FF6600648CA5 /* XCRemoteSwiftPackageReference "Closures" */;
 			productName = Closures;
+		};
+		EEB4B9CC255A2FAF00C99D02 /* Rswift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EEB4B9C8255A2F8900C99D02 /* XCRemoteSwiftPackageReference "R.swift.Library" */;
+			productName = Rswift;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
